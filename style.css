@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+}
+main{
+    min-height: 100vh;
+}
+section{
+    min-height: 100vh;
+    background-color: #171717;
+}
+nav{
+    height: 10vh;
+    background-color: red;
+}
+.hero-section{
+    height: 80vh;
+    background-color: rgb(35, 33, 33);
+}
+.company-logos{
+    height: 10vh;
+    background-color: pink;
+}
+.navbar{
+    padding: 22px;
+    /* background-color: white; */
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    /* padding: 23px; */
+    color: white;
+    font-size: 10px;
+    gap: ;
+}
