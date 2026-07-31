@@ -46,25 +46,26 @@ nav {
     color: white;
     font-size: 6px;
 }
-.nav-left .logo{
+
+.nav-left .logo {
     display: flex;
-    align-items: center; 
-    justify-content: center;   
+    align-items: center;
+    justify-content: center;
     width: 10%;
     height: 100%;
+
     /* background-color: yellow; */
-    i{
+    i {
         font-size: 20px;
         color: white;
         cursor: pointer;
     }
 }
-
 .nav-left .links-container {
     display: flex;
     align-items: center;
-    /* gap: 1px; */
-    button{
+
+    button {
         background-color: transparent;
         padding: 10px 13px;
         color: #8A8A8A;
@@ -74,31 +75,44 @@ nav {
         cursor: pointer;
         letter-spacing: 0.2px;
         word-spacing: 1px;
+        transition: color 0.2s ease;
 
+        &:hover {
+            color: white; 
+        }
     }
 }
+
 .nav-right {
     display: flex;
     align-items: center;
     width: 50%;
-    padding : 10px 20px;
-    /* background-color: blue; */
+    padding: 10px 20px;
     justify-content: flex-end;
-    gap: 2px;
+    gap: 10px;
     box-sizing: border-box;
-    
 
-    button{
+    button {
         background-color: transparent;
-        padding: 10px 15px;
+        padding: 8px 12px;
         color: white;
-        border: none;
-        font-size: 15px;
-        letter-spacing: 0.5px;
-        cursor: pointer;
         border: 1px solid #393737;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        cursor: pointer;
+        border-radius: 8px;
     }
+    & :hover{
+        background-color: rgb(43, 39, 39);
+    }
+
+    .sign-up {
+        background-color: white;
+        color: black;
+    }
+
 }
+
 .hero-section {
     height: 80vh;
     background-color: rgb(35, 33, 33);
