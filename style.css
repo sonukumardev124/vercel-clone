@@ -61,6 +61,7 @@ nav {
         cursor: pointer;
     }
 }
+
 .nav-left .links-container {
     display: flex;
     align-items: center;
@@ -78,7 +79,7 @@ nav {
         transition: color 0.2s ease;
 
         &:hover {
-            color: white; 
+            color: white;
         }
     }
 }
@@ -102,7 +103,8 @@ nav {
         cursor: pointer;
         border-radius: 8px;
     }
-    & :hover{
+
+    & :hover {
         background-color: rgb(43, 39, 39);
     }
 
@@ -115,5 +117,67 @@ nav {
 
 .hero-section {
     height: 80vh;
-    background-color: rgb(35, 33, 33);
+    display: flex;
+    background: #000;
+    padding: 0 50px;
+
+    .left {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            color: white;
+            font-size: 65px;
+            line-height: 0.95;
+            margin-bottom: 30px;
+        }
+
+        .hero-button {
+            display: flex;
+            gap: 15px;
+
+            button {
+                font-size: 15px;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+                border-radius: 20px;
+                font-weight: 550;
+            }
+
+            .deploy {
+                background: white;
+                color: black;
+            }
+
+            .sales {
+                background: transparent;
+                color: white;
+                border: 0.2px solid rgb(44, 42, 42);
+            }
+        }
+    }
+
+
+    .center {
+        background-color: rgb(126, 126, 81);
+        height: 100%;
+        width: 30%;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .right {
+        background-color: gray;
+        height: 100%;
+        width: 35%;
+    }
 }
