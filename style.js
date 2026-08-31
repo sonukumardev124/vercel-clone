@@ -1,6 +1,9 @@
 const row1 = document.getElementById("row1");
+const row2 = document.getElementById("row2");
+const row3 = document.getElementById("row3");
 
 const original = row1.innerHTML;
+
 
 row1.addEventListener("mouseover", () => {
     row1.innerHTML = `

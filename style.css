@@ -192,16 +192,5 @@ nav {
             line-height: 1.9;
 
         }
-
-        .coding-agents:hover+.description {}
-
-        .ship-apps:hover {
-            background-color: blueviolet;
-        }
-
-        .automated-agents:hover {
-            background-color: gray;
-        }
-
     }
 }
