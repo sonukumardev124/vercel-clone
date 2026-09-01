@@ -14,9 +14,7 @@ html {
 main {
     min-height: 100vh;
 }
-.demo{
-    width: 100%;
-}
+
 section {
     min-height: 100vh;
     background-color: #000000;
