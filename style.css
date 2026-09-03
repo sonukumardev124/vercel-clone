@@ -34,8 +34,21 @@ nav {
 
 
 .company-logos {
-    height: 10vh;
-    background-color: pink;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+    /* background-color: rgb(23, 23, 23); */
+}
+
+.company-logos img {
+    width: 140px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
 }
 
 .nav-left {
