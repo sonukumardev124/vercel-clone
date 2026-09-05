@@ -218,7 +218,7 @@ nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: rgb(37, 35, 35);
+        /* background-color: rgb(37, 35, 35); */
         
         h1 {
             color: white;
