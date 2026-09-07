@@ -10,8 +10,7 @@ row1.addEventListener("mouseover", () => {
         <b>For coding agents</b><br>
         to deploy in their native language,<br>
         with Vercel's API, CLI, MCP,<br>
-        and Skills.
-    `;
+        and Skills.`;
 
     row1.style.opacity = "0.5";
     row1.style.lineHeight = "1.3";
