@@ -79,3 +79,7 @@
     font-family: "geistPixel_Square";
     src: url("./fonts/GeistPixel_Square.p.3ig4wtfmw09gh.woff2") format("woff2");
 }
+@font-face {
+    font-family: "geistPixel";
+    src: url("./fonts/geistPixel.woff2") format("woff2");
+}
