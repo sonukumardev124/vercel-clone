@@ -52,29 +52,30 @@
 
 @font-face {
     font-family: "Geist";
-    src: url("../fonts/geistPixel.woff2") format("woff2");
+    src: url("./fonts/geistPixel.woff2") format("woff2");
 }
+
 @font-face {
     font-family: "mainFont";
-    src: url("../assets/fonts/mainFont.woff2") format("woff2");
+    src: url("./fonts/mainFont.ttf") format("truetype");
 }
+
 @font-face {
     font-family: "geistPixel_Circle";
-    src: url("../fonts/GeistPixel_Circle.p.2p5mi6n8co77s.woff2") format("woff2");
+    src: url("./fonts/GeistPixel_Circle.p.2p5mi6n8co77s.woff2") format("woff2");
 }
+
 @font-face {
     font-family: "geistPixel_Grid";
-    src: url("../fonts/GeistPixel_Grid.p.0c5uz3kz61pux.woff2") format("woff2");
+    src: url("./fonts/GeistPixel_Grid.p.0c5uz3zk61pux.woff2") format("woff2");
 }
+
 @font-face {
     font-family: "geistPixel_Line";
-    src: url("../fonts/GeistPixel_Line.p.3lxddzyuwzx1_.woff2") format("woff2");
+    src: url("./fonts/GeistPixel_Line.p.3lxddzyuwzx1_.woff2") format("woff2");
 }
+
 @font-face {
     font-family: "geistPixel_Square";
-    src: url("../fonts/GeistPixel_Square.p.3ig4wtfmw09gh.woff2") format("woff2");
-}
-@font-face {
-    font-family: "geistPixel_ttf";
-    src: url("../fonts/mainFont.ttf") format("woff2");
+    src: url("./fonts/GeistPixel_Square.p.3ig4wtfmw09gh.woff2") format("woff2");
 }

@@ -105,6 +105,7 @@ nav {
     gap: 10px;
     box-sizing: border-box;
 
+
     button {
         background-color: transparent;
         padding: 8px 12px;
@@ -114,6 +115,7 @@ nav {
         letter-spacing: 0.2px;
         cursor: pointer;
         border-radius: 8px;
+        font-weight: 600;
     }
 
     & :hover {
@@ -143,11 +145,11 @@ nav {
 
         h1 {
             color: white;
-            font-size: 65px;
+            font-size: 62px;
             line-height: 1;
             margin-bottom: 30px;
             font-weight: 400;
-            font-family: "Geist", sans-serif;
+            font-family: "geistPixel_Circle";
         }
 
         .hero-button {
@@ -201,8 +203,10 @@ nav {
 
         span {
             color: white;
-            font-size: 18px;
+            font-size: 15px;
             line-height: 1.9;
+            font-family: 100;
+            font-family: "geistPixel_Square";
 
         }
     }
@@ -262,8 +266,6 @@ nav {
         display: flex;
         flex-direction: column;
         padding: 5vh;
-        /* align-items: center; */
-        /* justify-content: center; */
         margin-left: 72%;
         margin-top: 10vh;
 
@@ -271,8 +273,9 @@ nav {
             color: white;
             font-size: 22px;
             line-height: 1.02;
-            font-weight: 900;
+            font-weight: 600;
             margin-bottom: 30px;
+            font-family: "geistPixel_Circle";
         }
 
         span {
