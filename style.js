@@ -4,7 +4,6 @@ const row3 = document.getElementById("row3");
 
 const original = row1.innerHTML;
 
-
 row1.addEventListener("mouseover", () => {
     row1.innerHTML = `
         <b>For coding agents</b><br>
